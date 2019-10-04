@@ -271,6 +271,9 @@ img {
     width: 100%;
   }
 }
+.home .content-section .img-content .img-scroll {
+  border-radius: 0px;
+}
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
@@ -349,4 +352,22 @@ img {
 .home .content-pick .destination .btn:hover {
   background: #FFFFFF;
   color: #17A2B8;
+}
+.home #form {
+  text-align: center;
+  padding: 30px 50px;
+}
+.home #form .input {
+  font-size: 40px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.home #form label {
+  font-size: 20px;
+}
+.home #form label option {
+  font-size: 20px;
+}
+.home #form .result {
+  font-size: 20px;
 }
